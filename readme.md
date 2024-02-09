@@ -100,3 +100,4 @@ To do this, it is necessary to install the following packages:
 ### prepare_db_server
 
 This role aims to install a MariaDB database server running on a Docker container, using the official MariaDB image, version 11.2.2.
+# CHECKPOINT-2-DEVOPS
