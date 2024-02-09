@@ -1,0 +1,8 @@
+---
+- name: Configuration du serveur Apache et de Let's Encrypt
+  hosts: debian
+  become: true  # Permet de passer en mode super utilisateur (sudo)
+
+  roles:
+    - apache_setup
+    - certbot_setup
